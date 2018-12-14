@@ -6,8 +6,8 @@ setTimeout(function(){
 swal({  
 
  title: "Bạn nhận được một món quà !",   
-text: "HUỲNH THANH TÙNG vừa gửi bạn một món quà đặc biệt nhân ngày sinh nhật của bạn ", 
- imageUrl: "https://graph.facebook.com/100004061834192/picture?type=large",
+text: "Lợn vừa gửi bạn một món quà đặc biệt nhân ngày sinh nhật của bạn ", 
+ imageUrl: "https://graph.facebook.com/100002891540633/picture?type=large",
   showCancelButton: true,
    confirmButtonColor: "#DD6B55", 
   confirmButtonText: "Nhận quà ngay",
@@ -19,7 +19,7 @@ function(isConfirm){
  
 
 swal({  
- title: "Bạn có phải là Phương Li ? ", 
+ title: "Bạn có phải là Bò hâm ? ", 
   text: "Nhập mã xác nhận ",  
  type: "input",  
  showCancelButton: true,  
@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì ?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "aibiet") {   
+   if (inputValue !== "lonyeubo") {   
   swal.showInputError("Nhập sai rồi kìa :v ");   
   return false   }   
  
@@ -38,7 +38,7 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "Phương Li muốn nhận quà gì nào ? ",  
+  text: "Bò muốn nhận quà gì nào ? ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Phương Li trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Bò trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
@@ -61,7 +61,7 @@ if (inputValue === false) return false;
 
  }
 else {   
-  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ HUỲNH THANH TÙNG ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
+  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ Lợn ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
 
   } });
 
