@@ -17,7 +17,7 @@
             particleIndex = 0,
             settings = {
                 density: calculatedDensity,
-                particleSize: 8,
+                particleSize: 12,
                 particleSizeVariety: 1.5,
                 startingX: calculatedStartingX,
                 startingY: -20,
@@ -26,7 +26,7 @@
                 gravity: 0.015,
                 //maxLife: 300,
                 maxLife: calculatedLife,
-                particleColours: ["#F06292","#BA68C8","#64B5F6","#4DD0E1","#81C784","#DCE775","#FFD54F","#FF8A65","#EEEEEE"]
+                particleColours: ["#F06292","#BA68C8","#64B5F6","#4DD0E1","#81C784","#DCE775","#FFD54F","#FF8A65","#FA8072","#FF8C00","#FFFF00","#7CFC00","#EEEEEE"]
             };
 
         //Function that will create particles
